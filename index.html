@@ -10,10 +10,16 @@
 </head>
 <body>
   <!-- 🎶 Música de fondo -->
-  <audio autoplay loop playsinline>
-    <source src="./music/Ven - Erick Elera.mp3" type="audio/mpeg">
-    Tu navegador no soporta audio en HTML5.
-  </audio>
+<audio id="musica" loop playsinline>
+  <source src="./music/Ven - Erick Elera.mp3" type="audio/mpeg">
+  Tu navegador no soporta audio en HTML5.
+</audio>
+
+<!-- Botón para reproducir la música -->
+<button onclick="document.getElementById('musica').play()" class="btn-musica">
+  💖 Reproducir música 💖
+</button>
+
 
   <div class="carta">
     
