@@ -81,3 +81,24 @@ body::after {
   margin-top: 20px;
 }
 
+.btn-musica {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 25px;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(45deg, #ff4e91, #ffafbd);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn-musica:hover {
+  transform: scale(1.08);
+  box-shadow: 0px 6px 15px rgba(0,0,0,0.3);
+  background: linear-gradient(45deg, #ffafbd, #ff4e91);
+}
